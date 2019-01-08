@@ -1,0 +1,70 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--     BootStrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+  crossorigin="anonymous">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <div class="container">
+    <h1>Centroid Finder</h1>
+    <p>Press tab to cycle through the inputs</p>
+    <form>
+        <div class="point-1">
+            <label for="x1">X1: </label>
+            <input id="x1" type="text" placeholder="Point 1 X coordinate" label="1" autofocus>
+            <label for="x1">Y1: </label>
+            <input id="y1" type="text" placeholder="Point 1 Y coordinate" label="1">
+        </div>
+        <div class="point-2">
+            <label for="x1">X2: </label>
+            <input id="x2" type="text" placeholder="Point 2 X coordinate" label="1">
+            <label for="x1">Y2: </label>
+            <input id="y2" type="text" placeholder="Point 2 Y coordinate" label="1">
+        </div>
+        <div class="point-3">
+            <label for="x1">X3: </label>
+            <input id="x3" type="text" placeholder="Point 3 X coordinate" label="1">
+            <label for="x1">Y3: </label>
+            <input id="y3" type="text" placeholder="Point 3 Y coordinate" label="1">
+        </div>
+
+        <button id="submitButton" type="button" class="btn btn-secondary">Calculate</button>
+    </form>
+    <div class="inner"></div>
+  </div>
+
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
