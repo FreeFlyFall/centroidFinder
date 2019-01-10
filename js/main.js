@@ -10,12 +10,12 @@ $("input").keydown(function(e) {
   });
 
 function getData(){
-    let x1 = parseInt($("#x1").val());
-    let y1 = parseInt($("#y1").val());
-    let x2 = parseInt($("#x2").val());
-    let y2 = parseInt($("#y2").val());
-    let x3 = parseInt($("#x3").val());
-    let y3 = parseInt($("#y3").val());
+    let x1 = parseFloat($("#x1").val());
+    let y1 = parseFloat($("#y1").val());
+    let x2 = parseFloat($("#x2").val());
+    let y2 = parseFloat($("#y2").val());
+    let x3 = parseFloat($("#x3").val());
+    let y3 = parseFloat($("#y3").val());
 
     // Find the midpoint of the lines
     let mx1 = (x1 + x2) / 2;
