@@ -29,8 +29,10 @@ function getData(){
     let c1 = ((mx1 + mx2 + mx3) / 3).toFixed(2);;
     let c2 = ((my1 + my2 + my3) / 3).toFixed(2);;
 
-    let centroid = `Centroid: (${c1}, ${c2})`;
+    // Set strings to be displayed using the data
+    let midpointString = `Midpoints: (${mx1}, ${my1}), (${mx2}, ${my2}), (${mx3}, ${my3})`;
+    let centroidString = `Centroid: (${c1}, ${c2})`;
 
     // Show the user the centroid
-    $('.inner').text(centroid);
+    $('.inner').html("<p>" + midpointString + "</p><p>" + centroidString + "</p>");
 }
